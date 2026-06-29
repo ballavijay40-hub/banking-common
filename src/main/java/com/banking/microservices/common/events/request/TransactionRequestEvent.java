@@ -16,9 +16,9 @@ public class TransactionRequestEvent {
 
     private String referenceNumber;
 
-    private Long fromAccountId;
+    private String fromAccountNumber;
 
-    private Long toAccountId;
+    private String toAccountNumber;
 
     private BigDecimal amount;
 
